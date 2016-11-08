@@ -112,7 +112,7 @@ I'm technologically stupid so I find it confusing and hard to follow. For exampl
 
 SWOT
 
-Strengths
+STRENGTHS
 - Social aspect: Connects you to friends and groups
 - Easy: Lets you bring book purchases in from amazon
 - Reviews : Lets you express your opinion
