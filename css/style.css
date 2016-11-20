@@ -1,0 +1,205 @@
+footer {
+  background-color: black;
+  height: 10vh;
+  width: 100%;
+  clear: both;
+  position: fixed;
+  bottom: 0;
+  border-top: 2px solid white; }
+
+.footermenu ul {
+  text-decoration: none;
+  float: right; }
+
+.footermenu ul li {
+  color: white; }
+
+.social ul li {
+  display: inline;
+  padding-left: 20px; }
+
+.footerlist {
+  text-decoration: none;
+  color: white;
+  position: relative;
+  left: 200px;
+  bottom: 10px;
+  font-family: "Nova Mono", monospace;
+  font-size: 18px;
+  margin-right: 50px; }
+
+.footerlist:hover {
+  border-bottom: 2px solid #009cbd;
+  border-top: 2px solid #009cbd;
+  padding-bottom: 1px;
+  padding-top: 1px; }
+
+.social .facebook img {
+  border-right: 5px solid #009cbd;
+  padding-right: 25px; }
+
+.twitter img {
+  padding-top: 5px; }
+
+.bookcontainer {
+  margin-top: 100px; }
+
+.book {
+  float: left;
+  width: 30%;
+  height: 300px;
+  object-fit: contain;
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+  padding: 10px; }
+
+.book img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain; }
+
+.menu {
+  width: 39%;
+  height: 30vh;
+  background-color: black;
+  float: right;
+  font-family: "Nova Mono", monospace;
+  font-size: 20px;
+  border-left: 1px solid white; }
+
+.menu li {
+  border-bottom: 1px solid white;
+  padding: 10px;
+  list-style: none; }
+
+.menu li a {
+  text-decoration: none;
+  color: white; }
+
+.list1:hover {
+  color: #f6bc00; }
+
+.menu1 {
+  width: 39%;
+  height: 60vh;
+  background-color: #f6bc00;
+  float: right;
+  font-family: "Nova Mono", monospace;
+  font-size: 20px;
+  border-left: 1px solid white; }
+
+.menu1 li {
+  border-bottom: 1px solid black;
+  padding: 6px;
+  list-style: none; }
+
+.menu1 li a {
+  text-decoration: none;
+  color: white; }
+
+.plus {
+  margin-right: 10px; }
+
+.amazon {
+  margin-right: 10px; }
+
+.list2:hover {
+  color: black; }
+
+body {
+  margin: 0; }
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0; }
+
+.left-sidebar {
+  width: 35%;
+  height: 90vh;
+  float: left;
+  position: fixed;
+  background: url(../images/fullbg.jpg) no-repeat bottom left; }
+
+.main-container {
+  background-color: white;
+  width: 65%;
+  float: right; }
+
+.logo {
+  clear: both;
+  width: 60%;
+  height: 300px;
+  float: left;
+  position: relative;
+  right: 300px; }
+
+.mybooks {
+  padding-left: 20px;
+  padding-top: 5px;
+  height: 80%;
+  width: 80%; }
+
+header {
+  clear: both;
+  width: 100%;
+  height: 100px;
+  background-color: #009cbd;
+  border-bottom: 2px solid black;
+  position: fixed; }
+
+.profilelist li {
+  display: inline;
+  padding: 30px;
+  position: relative;
+  top: 45px;
+  left: 250px; }
+
+.topbar {
+  text-decoration: none;
+  color: black;
+  font-family: "Nova Mono", monospace;
+  font-size: 20px;
+  position: relative; }
+
+.topbar:hover {
+  color: white;
+  border-bottom: 2px solid white;
+  border-top: 2px solid white; }
+
+.icons {
+  padding: 5px;
+  text-align: center;
+  position: relative;
+  bottom: 5px; }
+
+.email {
+  margin-right: 50px; }
+
+@media (max-width: 767px) {
+  .left-sidebar {
+    display: none; }
+
+  .main-container {
+    width: 100%; }
+
+  .menu {
+    display: none; }
+
+  .menu1 {
+    display: none; }
+
+  .icons {
+    display: none; }
+
+  .profile {
+    display: none; }
+
+  .book {
+    width: 49%; }
+
+  .logo {
+    display: none; }
+
+  .footerlist {
+    display: none; } }
+
+/*# sourceMappingURL=style.css.map */

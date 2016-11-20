@@ -1,0 +1,50 @@
+footer {
+  background-color: black;
+  height: 10vh;
+  width: 100%;
+  clear: both;
+  position: fixed;
+  bottom: 0;
+  border-top: 2px solid white;
+}
+
+.footermenu ul{
+  text-decoration: none;
+  float: right;
+}
+
+.footermenu ul li{
+  color: white;
+}
+
+.social ul li{
+  display: inline;
+  padding-left: 20px;
+}
+
+.footerlist {
+  text-decoration: none;
+  color: white;
+  position: relative;
+  left: 200px;
+  bottom: 10px;
+  font-family: $fontfamily;
+  font-size: 18px;
+  margin-right: 50px;
+}
+
+.footerlist:hover {
+  border-bottom: 2px solid $blue;
+  border-top: 2px solid $blue;
+  padding-bottom: 1px;
+  padding-top: 1px;
+}
+
+
+.social .facebook img{
+border-right: 5px solid $blue;
+padding-right: 25px;
+}
+.twitter img{
+  padding-top: 5px;
+}

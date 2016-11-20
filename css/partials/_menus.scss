@@ -1,0 +1,56 @@
+.menu {
+  width: 39%; height: 30vh;
+  background-color: black;
+  float: right;
+  font-family: $fontfamily;
+  font-size: $size;
+  border-left: 1px solid white;
+}
+
+.menu li{
+  border-bottom: 1px solid white;
+  padding: 10px;
+  list-style: none;
+}
+
+.menu li a {
+  text-decoration: none;
+  color: white;
+}
+
+.list1:hover{
+  color: $yellow;
+}
+
+.menu1 {
+  width: 39%; height: 60vh;
+  background-color: $yellow;
+  float: right;
+  font-family: $fontfamily;
+  font-size: $size;
+  border-left: 1px solid white;
+}
+
+.menu1 li{
+  border-bottom: 1px solid black;
+  padding: 6px;
+  list-style: none;
+}
+
+.menu1 li a {
+  text-decoration: none;
+  color: white;
+}
+
+.plus {
+  margin-right: 10px;
+}
+
+.amazon{
+  margin-right: 10px;
+}
+
+
+.list2:hover{
+  color: black;
+}
