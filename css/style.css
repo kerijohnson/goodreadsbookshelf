@@ -46,12 +46,13 @@ footer {
 
 .book {
   float: left;
-  width: 30%;
+  width: 33%;
   height: 300px;
   object-fit: contain;
   border-right: 1px solid black;
   border-bottom: 1px solid black;
-  padding: 10px; }
+  padding: 10px;
+  box-sizing: border-box; }
 
 .book img {
   width: 100%;
@@ -165,41 +166,92 @@ header {
   border-bottom: 2px solid white;
   border-top: 2px solid white; }
 
+.textonly {
+  display: none; }
+
 .icons {
   padding: 5px;
   text-align: center;
   position: relative;
   bottom: 5px; }
 
+.menu-box {
+  display: none;
+  color: white;
+  text-decoration: none;
+  border: 2 px solid white; }
+
 .email {
   margin-right: 50px; }
 
+@media (min-width: 768px) and (max-width: 1100px) {
+  .footerlist {
+    left: 0px;
+    bottom: 10px;
+    font-family: "Nova Mono", monospace;
+    font-size: 18px;
+    margin: 0; }
+
+  .facebook, .twitter {
+    display: none; }
+
+  .profilelist li a {
+    left: 0;
+    padding: 5px;
+    display: none; }
+
+  .menu-box {
+    display: inline;
+    padding-right: 20px;
+    border: 1px solid white;
+    padding: 0px 10px 0px 10px;
+    float: right; }
+
+  .menu, .menu1 {
+    display: none; }
+
+  .book {
+    width: 50%; } }
 @media (max-width: 767px) {
+  .footerlist {
+    display: none; }
+
+  .facebook, .twitter {
+    display: none; }
+
+  .profilelist li {
+    display: none; }
+
+  .menu-box {
+    display: inline;
+    float: right;
+    margin-right: 20px;
+    border: 1px solid white;
+    padding: 0px 10px 0px 10px; }
+
+  .menu, .menu1 {
+    display: none; }
+
+  .book {
+    float: none;
+    width: 100%; }
+
   .left-sidebar {
     display: none; }
 
   .main-container {
     width: 100%; }
 
-  .menu {
-    display: none; }
+  .textonly {
+    display: inline;
+    width: 150px;
+    float: left;
+    margin-left: 10px; }
 
-  .menu1 {
-    display: none; }
-
-  .icons {
-    display: none; }
-
-  .profile {
-    display: none; }
-
-  .book {
-    width: 49%; }
-
-  .logo {
-    display: none; }
-
-  .footerlist {
-    display: none; } }
+  .menu-box {
+    float: right;
+    margin-right: 20px;
+    border: 1px solid white;
+    padding: 0px 10px 0px 10px; } }
 
 /*# sourceMappingURL=style.css.map */

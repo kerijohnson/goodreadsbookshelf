@@ -7,6 +7,7 @@ $size: 20px;
 @import "partials/_books";
 @import "partials/_menus";
 
+
 body {
   margin: 0;}
 
@@ -28,7 +29,6 @@ h1, h2, h3, h4, h5, h6, p {
   float: right;
 }
 
-
 .logo {
   clear: both;
   width: 60%; height: 300px;
@@ -36,7 +36,6 @@ h1, h2, h3, h4, h5, h6, p {
   position: relative;
   right: 300px;
 }
-
 
 .mybooks {
   padding-left: 20px;
@@ -76,6 +75,9 @@ header {
   border-top: 2px solid white;
 }
 
+.textonly {
+  display:none;
+}
 
 .icons {
   padding: 5px;
@@ -84,35 +86,15 @@ header {
   bottom: 5px;
 }
 
+.menu-box {
+  display:none;
+  color: white;
+  text-decoration: none;
+  border: 2 px solid white;
+}
+
 .email {
   margin-right: 50px;
 }
 
-@media (max-width: 767px) {
-  .left-sidebar {
-    display: none;
-  }
-  .main-container {
-    width: 100%;
-  }
-  .menu {
-    display:none;
-  }
-  .menu1 {
-    display:none;
-  }
-  .icons {
-    display: none;
-  }
-  .profile {
-  display: none;
-}
-  .book {
-    width: 49%;
-  }
-.logo {
-  display: none;
-}
-.footerlist{
-  display: none;
-}}
+@import "partials/media"
